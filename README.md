@@ -5,7 +5,7 @@ Norwegian salmon supply chain
 - params.py raccoglie tutti i parametri dell'istanza che si sceglie di usare
 - test.py: si crea l'istanza della classe Model a cui vengono assegnati i valori dei parametri; nel caso in cui il modello fosse infeasible, vengono restituiti i vincoli violati sullo standard output
 
-- istanza 0: rappresenta il problema minimo, in cui vengono utilizzati solo 6 attori (uno per categoria); sono stati trovati i valori minimi (capacità, emissione) e massimi (distanza, domanda, consumo di carburante) per cui il problema minimo funziona 
+- istanza 0: rappresenta il problema minimo, in cui vengono utilizzati solo 6 attori (uno per categoria) e un periodo di tempo; sono stati trovati i valori minimi (capacità, emissione) e massimi (distanza, domanda, consumo di carburante) per cui il problema minimo funziona 
 - istanza 1: vengono utilizzati 8 attori (2 allevamenti di salmone, 1 macelleria, 1 impianto di elaborazione primaria, 1 impianto di elaborazione secondaria, 1 grossista e 2 rivenditori) e i periodi di tempo sono 3
 - istanza 4: vengono utilizzati 20 attori (4 allevamenti di salmone, 3 macellerie, 2 impianti di elaborazione primaria, 2 impianti di elaborazione secondaria, 4 grossisti e 5 rivenditori) e i periodi di tempo sono 3
 - istanza 7: vengono utilizzati 32 attori (10 allevamenti di salmone, 9 macellerie, 2 impianti di elaborazione primaria, 2 impianti di elaborazione secondaria, 4 grossisti e 5 rivenditori) e i periodi di tempo sono 14
