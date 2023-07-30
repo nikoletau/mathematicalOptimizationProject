@@ -16,7 +16,7 @@ Norwegian salmon supply chain
 
 Un periodo di tempo è un giorno. 
 
-Per ogni istanza ci sono diversi .csv, in cui sono stati raggruppati i parametri a seconda degli indici. I .csv contengono i dati relativi ai collegamenti tra gli attori (capacità di trasporto, costo di trasporto, consumo di carburante (L/km) e distanza), mentre gli altri contengono la capacità di immagazzinamento ed eventuali costi di inventario ed elaborazione degli attori. 
+Per ogni istanza ci sono diversi .csv, in cui sono stati raggruppati i parametri a seconda degli indici. I .csv contengono i dati relativi ai collegamenti tra gli attori (capacità di trasporto (kg), costo di trasporto (€), consumo di carburante (L/km) e distanza (km)), mentre gli altri contengono la capacità di immagazzinamento (kg) ed eventuali costi (€) di inventario ed elaborazione degli attori. 
 
 Le istanze del test includono scenari in cui sono stati utilizzati diversi valori della domanda e sia le capacità del trasporto che quelle del magazzino sono state modificate quando il problema è risultato irrealizzabile o ha richiesto troppo tempo di computazione.
 
